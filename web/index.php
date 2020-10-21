@@ -26,7 +26,7 @@ try {
     $gender = $row['gender'];
     $email = $row['email'];
 
-    echo "<p> $first_name $secondname $gender $email</p>";
+    echo "<p> $first_name , $secondname , $gender , $email</p>";
 
   }
 } catch (Exception $ex) {
