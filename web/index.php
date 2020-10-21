@@ -1,6 +1,7 @@
 <?php
-require "dbconnect.php"
+require "dbconnect.php";
 $db = get_db();
+
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +27,7 @@ try {
     $email = $row['email'];
 
     echo "<p> $first_name $secondname $gender $email</p>";
-    
+
   }
 } catch (Exception $ex) {
   echo "$ex";
